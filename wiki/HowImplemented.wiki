@@ -1,0 +1,4 @@
+#summary One-sentence summary of this page.
+#labels Phase-Design
+
+We will extends android view and override onDraw() method to implement calendar view.
