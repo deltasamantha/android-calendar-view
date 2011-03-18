@@ -55,6 +55,7 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
         int year = data.getIntExtra("year", 0);   // get number of year
         int month = data.getIntExtra("month", 0); // get number of month 0..11
         int day = data.getIntExtra("day", 0);     // get number of day 0..31
+
         // format date and display on screen
         final Calendar dat = Calendar.getInstance();
         dat.set(Calendar.YEAR, year);
