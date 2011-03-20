@@ -1,5 +1,5 @@
+#summary How to use calendar view in your own project
 #labels Phase-Implementation,Featured
-#How to use calendar view in your own project
 
 = Import to Your Own Project =
 
