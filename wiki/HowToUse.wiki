@@ -1,5 +1,5 @@
-#summary One-sentence summary of this page.
 #labels Phase-Implementation,Featured
+#How to use calendar view in your own project
 
 = Import to Your Own Project =
 
