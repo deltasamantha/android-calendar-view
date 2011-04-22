@@ -3,7 +3,7 @@
 
 = Import to Your Own Project =
 
-  # Added new calendar activity to your AndroidManifest.xml
+  # Added new calendar activity to your !AndroidManifest.xml
 {{{
 <activity android:name="com.exina.android.calendar.CalendarActivity">
     
