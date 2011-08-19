@@ -3,7 +3,7 @@
 
 = Import to Your Own Project =
 
-  # Added new calendar activity to your !AndroidManifest.xml
+  # Add new calendar activity to your own !AndroidManifest.xml
 {{{
 <activity android:name="com.exina.android.calendar.CalendarActivity">
     
@@ -19,7 +19,7 @@
     </intent-filter>
 </activity>
 }}}
-  # Copy source files to your project's src folder
+  # Copy source files to your own project's src folder
 {{{
 com/exina/android/calendar/CalendarActivity.java
 com/exina/android/calendar/CalendarView.java
@@ -42,7 +42,7 @@ By using startActivityForResult to call calendar view and expect a result.
 // 1) start calendar view
 startActivityForResult(new Intent(Intent.ACTION_PICK).setDataAndType(null, CalendarActivity.MIME_TYPE), 100);
 
-// 2) implement own onActivityResult method to handle returned date
+// 2) implement your own onActivityResult method to handle returned date
 @Override
 public void onActivityResult(int requestCode, int resultCode, Intent data) {
     if(resultCode==RESULT_OK) {
@@ -56,6 +56,7 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
         dat.set(Calendar.MONTH, month);
         dat.set(Calendar.DAY_OF_MONTH, day);
         
+        // show result
         SimpleDateFormat format = new SimpleDateFormat("yyyy MMM dd");
         Toast.makeText(TestActivity.this, format.format(dat.getTime()), Toast.LENGTH_LONG).show();
                 
