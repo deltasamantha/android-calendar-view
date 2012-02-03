@@ -1,4 +1,4 @@
-#summary people contributes some nice calendar views based on this project
+#summary some alternative calendar views shared by talents people
 #labels Deprecated
 
 = Introduction =
