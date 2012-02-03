@@ -1,5 +1,5 @@
+#summary people contributes some nice calendar views based on this project
 #labels Deprecated
-#people contributes some nice calendar views based on this project
 
 = Introduction =
 
